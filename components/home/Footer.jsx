@@ -1,5 +1,5 @@
 import Image from "next/image";
-import phone from '../assets/phone.svg'
+import phone from '../../assets/phone.svg'
 
 export default function Footer() {
   return (

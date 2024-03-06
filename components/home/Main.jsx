@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import calendar from '../assets/calendar.svg'
-import doctor from '../assets/doctor.webp'
+import calendar from '../../assets/calendar.svg'
+import doctor from '../../assets/doctor.webp'
 const Main = () => {
   return (
     <main className="flex items-center justify-center h-screen gap-6 px-10 bg-cyan-600">
