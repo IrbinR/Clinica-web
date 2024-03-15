@@ -10,8 +10,8 @@ import next from '../../assets/next.svg'
 
 export default function EspecialtiesMain() {
   return (
-    <main className="bg-cyan-600 h-screen flex flex-col justify-around">
-      <h1 className='text-center text-3xl w-[40rem] mx-auto font-medium'>Somos un hospital que nos preocupamos en brindar servicios de salud confiables 
+    <main className="bg-cyan-600 flex flex-col flex-1 justify-around">
+      <h1 className='text-center text-3xl px-52 mx-auto font-medium'>Somos un hospital que nos preocupamos en brindar servicios de salud confiables 
         y seguros, con profesionales médicos altamente calificados.</h1>
       {/*<Page1/>
       <Page2/>

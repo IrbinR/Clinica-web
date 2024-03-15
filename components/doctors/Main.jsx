@@ -4,9 +4,9 @@ import next from '../../assets/next.svg'
 import Footer from "../home/Footer"
 export default function DoctorsMain() {
   return (
-    <main className="flex flex-col justify-around bg-cyan-600">
+    <main className="flex flex-col justify-around bg-cyan-600 flex-1">
       <h1 className='text-center text-3xl w-[40rem] mx-auto font-medium mb-8'>Encuentra al especialista que necesitas</h1>
-       <div className="grid grid-cols-3 justify-items-center gap-5 h-screen">
+       <div className="grid grid-cols-3 justify-items-center gap-5">
          <div className="border border-transparent w-56 h-72 rounded overflow-hidden">
           <section className="rounded"><Image src="https://cms-img.auna.org/47075658_f90ce42c3b.png" width={650} height={650} alt="" className="w-full"/></section>
           <section className="flex flex-col gap-2 pl-3 py-4 bg-slate-300 h-full">

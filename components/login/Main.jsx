@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function LoginMain() {
   return (
-    <main className="flex flex-col justify-center items-center bg-cyan-600 h-screen gap-5">
+    <main className="flex flex-col justify-center items-center bg-cyan-600s h-screen gap-5">
      <h1 className='text-5xl font-semibold'>Inicia sesión</h1>
      <form className='flex flex-col w-96 gap-8 text-xl'>
         <div className='flex flex-col gap-2'>
@@ -20,7 +20,7 @@ export default function LoginMain() {
 
         <button className='bg-cyan-800 h-12 rounded-full'>Ingresar</button>
 
-        <div className='flex gap-2 justify-center'><p>¿No tienes cuenta?</p><p>Regístrate</p></div>
+        <div className='flex gap-2 justify-center'><p>¿No tienes cuenta?</p><p className='text-blue-900'>Regístrate</p></div>
      </form>
       
     </main>

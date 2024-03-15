@@ -3,7 +3,7 @@ import calendar from '../../assets/calendar.svg'
 import doctor from '../../assets/doctor.webp'
 const Main = () => {
   return (
-    <main className="flex items-center justify-center h-screen gap-6 px-10 bg-cyan-600">
+    <main className="flex items-center justify-center flex-1 gap-6 px-10 bg-cyan-600">
         <section className='w-[29rem]'>
             <h2 className="uppercase">centro médico familiar online</h2>
             <h1 className="text-4xl my-3 font-semibold">Cuidamos tu salud en tiempos difíciles</h1>

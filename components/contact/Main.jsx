@@ -6,9 +6,9 @@ import clock from '../../assets/clock.svg'
 
 export default function ContactMain() {
   return (
-    <main className="flex flex-col items-center bg-cyan-600 h-screen">
+    <main className="flex flex-col flex-1 items-center bg-cyan-600 h-screen">
       <h1 className="text-2xl w-80 text-center">Estamos a tu disposición en nuestros canales de atención</h1>
-      <div className="flex items-center h-screen">
+      <div className="flex items-center flex-1">
         <div className="flex gap-14">
           <div className="flex flex-col">
             <div className="relative"><p className="after:content-[''] after:absolute after:bg-cyan-950 after:w-6 after:bottom-[-4px] after:left-0 after:h-1">Dirección</p></div>
