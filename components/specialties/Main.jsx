@@ -16,9 +16,9 @@ export default function EspecialtiesMain() {
       {/*<Page1/>
       <Page2/>
       */}
-      <Page5/>
+      <Page1/>
 
-      <section className='flex justify-center items-center gap-5 border border-blue-700 h-10'>
+      <section className='flex justify-center items-center gap-5 h-10'>
         <button><Image src={previus} className='w-5'/></button>
         <span>1</span>
         <span>2</span>
