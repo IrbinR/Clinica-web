@@ -1,5 +1,5 @@
 export default function LoginLayout({children}) {
   return (
-    <div>{children}</div>
+    <div className="flex flex-col min-h-screen">{children}</div>
   )
 }
